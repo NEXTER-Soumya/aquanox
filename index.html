@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUA NOX - RO Plant & Water Treatment Solutions</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><img src="assets/logo.png" alt="AQUA NOX"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="operations.html">Operations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-up">AQUA NOX</h1>
+            <p class="fade-up">Start Your Own Packaged Drinking Water Business</p>
+            <a href="#products" class="cta-btn fade-up">View RO Plants</a>
+        </div>
+    </section>
+
+    <section class="home-products" id="products">
+        <div class="container">
+            <h2 class="section-title animate">Our RO Plant Solutions</h2>
+            <p class="pricing-disclaimer animate" style="text-align: center; color: #666; margin-bottom: 30px; font-size: 0.9rem;">*Prices are indicative. Final pricing varies by location, shipping, and installation. <a href="terms.html" style="color: #0066cc; text-decoration: underline;">View Terms</a></p>
+            <div class="home-products-grid">
+                <div class="product-card animate" onclick="window.location.href='product-detail.html?id=classic'" style="cursor: pointer;">
+                    <div class="product-image">
+                        <img src="assets/products/classic-3.png" alt="Small Scale RO Plant">
+                    </div>
+                    <h3>Small Scale RO Plant</h3>
+                    <p class="product-size">1500 LPH Capacity</p>
+                    <p class="product-price">₹2,50,000</p>
+                    <div class="product-actions" onclick="event.stopPropagation();">
+                        <button class="btn-whatsapp" onclick="buyWhatsApp('Small Scale RO Plant', '1500 LPH', '₹2,50,000')">💬
+                            WhatsApp</button>
+                        <button class="btn-call" onclick="callNow()">📞 Call</button>
+                    </div>
+                </div>
+
+                <div class="product-card animate" onclick="window.location.href='product-detail.html?id=premium'" style="cursor: pointer;">
+                    <div class="product-image">
+                        <img src="assets/products/premium-3.png" alt="Medium Scale RO Plant">
+                    </div>
+                    <h3>Mid-Scale RO Plant</h3>
+                    <p class="product-size">2000 LPH Capacity</p>
+                    <p class="product-price">₹3,50,000</p>
+                    <div class="product-actions" onclick="event.stopPropagation();">
+                        <button class="btn-whatsapp" onclick="buyWhatsApp('Medium Scale RO Plant', '2000 LPH', '₹3,50,000')">💬
+                            WhatsApp</button>
+                        <button class="btn-call" onclick="callNow()">📞 Call</button>
+                    </div>
+                </div>
+
+                <div class="product-card animate" onclick="window.location.href='product-detail.html?id=family'" style="cursor: pointer;">
+                    <div class="product-image">
+                        <img src="assets/products/family-3.png" alt="Large Scale RO Plant">
+                    </div>
+                    <h3>Large Scale RO Plant</h3>
+                    <p class="product-size">6000 LPH Capacity</p>
+                    <p class="product-price">₹4,50,000</p>
+                    <div class="product-actions" onclick="event.stopPropagation();">
+                        <button class="btn-whatsapp" onclick="buyWhatsApp('Large Scale RO Plant', '6000 LPH', '₹4,50,000')">💬
+                            WhatsApp</button>
+                        <button class="btn-call" onclick="callNow()">📞 Call</button>
+                    </div>
+                </div>
+
+                <div class="product-card animate" onclick="window.location.href='product-detail.html?id=jar'" style="cursor: pointer;">
+                    <div class="product-image">
+                        <img src="assets/products/jar.png" alt="Industrial RO Plant">
+                    </div>
+                    <h3>Industrial RO Plant</h3>
+                    <p class="product-size">Custom Capacity</p>
+                    <p class="product-price">Contact for Price</p>
+                    <div class="product-actions" onclick="event.stopPropagation();">
+                        <button class="btn-whatsapp" onclick="buyWhatsApp('Industrial RO Plant', 'Custom Capacity', 'Contact for Price')">💬
+                            WhatsApp</button>
+                        <button class="btn-call" onclick="callNow()">📞 Call</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title animate">About AQUA NOX</h2>
+            <p class="about-text animate">AQUA NOX provides complete RO Plant solutions to help you start your own packaged drinking water business. Our state-of-the-art water treatment systems ensure the highest quality output with minimal maintenance and maximum efficiency.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title animate">Why Choose Our RO Plants</h2>
+            <div class="feature-grid">
+                <div class="feature-card animate">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Complete Setup</h3>
+                    <p>End-to-end installation and commissioning support</p>
+                </div>
+                <div class="feature-card animate">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Advanced Technology</h3>
+                    <p>Latest RO membrane technology for superior water quality</p>
+                </div>
+                <div class="feature-card animate">
+                    <div class="feature-icon">👨‍🔧</div>
+                    <h3>After-Sales Service</h3>
+                    <p>24/7 technical support and maintenance services</p>
+                </div>
+                <div class="feature-card animate">
+                    <div class="feature-icon">💰</div>
+                    <h3>Cost Effective</h3>
+                    <p>Low operational costs with high efficiency and ROI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title animate">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Started my water business with AQUA NOX RO Plant. The installation was smooth and the plant runs flawlessly. Great investment!"</p>
+                    <p class="customer-name">Soumya Biswas</p>
+                </div>
+
+                <div class="testimonial-card animate">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Excellent quality RO plant with amazing after-sales support. The team is always available for any technical assistance."</p>
+                    <p class="customer-name">Subhra Pratim Biswas</p>
+                </div>
+
+                <div class="testimonial-card animate">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Best decision for my business. The RO plant is efficient, low maintenance, and produces high-quality water consistently."</p>
+                    <p class="customer-name">Souvik Chatterjee</p>
+                </div>
+
+                <div class="testimonial-card animate">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Professional team, quality equipment, and excellent service. AQUA NOX helped me establish a successful water business."</p>
+                    <p class="customer-name">Arnab Dutta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> AQUA NOX. All rights reserved. | <a href="terms.html" style="color: #fff; text-decoration: underline;">Terms & Conditions</a></p>
+        </div>
+    </footer> 
+
+    <script src="script.js"></script>
+</body>
+
+</html>

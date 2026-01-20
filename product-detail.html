@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RO Plant Details - AQUA NOX</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><img src="assets/logo.png" alt="AQUA NOX"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="operations.html">Operations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="product-detail-section">
+        <div class="container">
+            <a href="index.html#products" class="back-link">← Back to Home</a>
+            <div class="product-detail-card">
+                <div class="product-detail-image">
+                    <div class="main-image" id="mainImageContainer">
+                        <img id="mainImage" src="" alt="Product Image">
+                    </div>
+                    <div class="thumbnail-gallery" id="thumbnailGallery"></div>
+                </div>
+                <div class="product-detail-info">
+                    <h1 id="productName"></h1>
+                    <p class="detail-size" id="productSize"></p>
+                    <p class="detail-price" id="productPrice"></p>
+                    <p class="pricing-note" style="color: #666; font-size: 0.85rem; margin-top: -10px;">*Price may vary based on location and shipping. <a href="terms.html" style="color: #0066cc;">See Terms</a></p>
+                    <div class="detail-description">
+                        <h3>Product Description</h3>
+                        <p id="productDescription"></p>
+                    </div>
+                    <div class="detail-features">
+                        <h3>Key Features</h3>
+                        <ul id="productFeatures"></ul>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn-whatsapp" id="whatsappBtn">💬 Order via WhatsApp</button>
+                        <button class="btn-call" onclick="callNow()">📞 Call Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> AQUA NOX. All rights reserved. | <a href="terms.html" style="color: #fff; text-decoration: underline;">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="product-detail.js"></script>
+</body>
+</html>
