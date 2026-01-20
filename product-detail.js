@@ -10,7 +10,7 @@ const products = {
             'assets/products/classic-3.png'
         ],
         video: 'assets/products/video5.mp4',
-        description: 'Perfect for small-scale packaged drinking water businesses. This compact RO plant is ideal for startups and produces 500 liters per hour of purified water. Easy to install and maintain with low operational costs.',
+        description: 'Perfect for small-scale packaged drinking water businesses. This compact RO plant is ideal for startups and produces 1500 liters per hour of purified water. Easy to install and maintain with low operational costs.',
         features: [
             'Capacity: 1500 Liters Per Hour',
             'Multi-stage filtration system',
@@ -30,7 +30,7 @@ const products = {
             'assets/products/premium-3.png'
         ],
         video: 'assets/products/video3b.mp4',
-        description: 'Designed for growing businesses with medium production requirements. This RO plant delivers 1000 liters per hour with advanced purification technology and automated controls for consistent water quality.',
+        description: 'Designed for growing businesses with medium production requirements. This RO plant delivers 2000 liters per hour with advanced purification technology and automated controls for consistent water quality.',
         features: [
             'Capacity: 2000 Liters Per Hour',
             'Advanced RO membrane technology',
@@ -50,7 +50,7 @@ const products = {
             'assets/products/family-3.png'
         ],
         video: 'assets/products/video2.mp4',
-        description: 'High-capacity RO plant for established water businesses. Produces 2000 liters per hour with superior filtration and minimal waste. Includes advanced monitoring systems and automatic cleaning features.',
+        description: 'High-capacity RO plant for established water businesses. Produces 6000 liters per hour with superior filtration and minimal waste. Includes advanced monitoring systems and automatic cleaning features.',
         features: [
             'Capacity: 6000 Liters Per Hour',
             'Industrial-grade components',
