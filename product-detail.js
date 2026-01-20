@@ -2,7 +2,7 @@
 const products = {
     'classic': {
         name: 'Small Scale RO Plant',
-        size: '1000 LPH Capacity',
+        size: '1500 LPH Capacity',
         price: '₹2,50,000',
         images: [
             'assets/products/classic.png',
@@ -12,7 +12,7 @@ const products = {
         video: 'assets/products/video5.mp4',
         description: 'Perfect for small-scale packaged drinking water businesses. This compact RO plant is ideal for startups and produces 500 liters per hour of purified water. Easy to install and maintain with low operational costs.',
         features: [
-            'Capacity: 1000 Liters Per Hour',
+            'Capacity: 1500 Liters Per Hour',
             'Multi-stage filtration system',
             'Automatic operation with minimal supervision',
             'Low power consumption',
