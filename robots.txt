@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aquanox.vercel.app/sitemap.xml
